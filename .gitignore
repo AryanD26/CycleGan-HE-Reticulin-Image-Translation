@@ -1,0 +1,43 @@
+# Python generated files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environment folders
+# Never upload your environment, just the requirements.txt
+venv/
+.venv/
+env/
+.env/
+*/venv/
+*/.venv/
+
+# IDE and OS-specific files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# === Project-Specific Ignores ===
+
+# Datasets - These are too large for Git
+# Provide download instructions in your README instead
+Images/
+Output/
+H&E_split_dataset/
+Retic_split_dataset/
+
+# Generated outputs from training and inference
+# These are artifacts, not source code
+checkpoints/
+logs/
+saved_images/
+evaluation_results/
+
+# Any local configuration files
+config.ini
+*.env
